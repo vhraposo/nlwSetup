@@ -8,36 +8,37 @@
     <title>Habits</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Comic+Sans' rel='stylesheet'>
 
     <link rel="stylesheet" href="style.css">
 
 
 </head>
 <body>
+    <div id="particles-js"></div>
+
     <header>
         
         
-        <img src="./assets/logo.svg" alt="Logo escrito Habits">
-        
+        <img class="alow" src="./assets/logo.svg" alt="Logo escrito Habits">
+        <h1 id="username"></h1>
         <button> <img src="./assets/plus.svg" alt="ícone sinal de mais roxo"> 
             <div>
                 Registrar o meu dia
             </div>
-        
+
         </button>
+
     </header>
     
     <form id="form-habits">
         <div class="habits">
-            <div class="habit" data-name="run">🏃‍♂️</div>
-            <div class="habit" data-name="water">💧</div>
-            <div class="habit" data-name="food">🍎</div>
-            <div class="habit" data-name="journal">📚</div>
-            <div class="habit" data-name="takePills">💊</div>
-            
-
-
-            
+            <div class="habit" data-name="run"><img src="https://cdn-icons-png.flaticon.com/512/4357/4357499.png" alt=""></div>
+            <div class="habit" data-name="water"><img src="https://cdn-icons-png.flaticon.com/512/6774/6774894.png" alt=""></div>
+            <div class="habit" data-name="food"><img src="https://cdn-icons-png.flaticon.com/512/1886/1886722.png" alt=""></div>
+            <div class="habit" data-name="book"><img src="https://cdn-icons-png.flaticon.com/512/4696/4696725.png" alt=""></div>
+            <div class="habit" data-name="dev"><img src="https://cdn-icons-png.flaticon.com/512/904/904837.png" alt=""></div>
+              
         </div>
         
         <div class="days"></div>
@@ -47,5 +48,9 @@
     
     <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
     <script src="./script.js"></script>
+
+
+    <script src="./assets/particles.js"></script>
+    <script src="./assets/app.js"></script>
 </body>
 </html>
